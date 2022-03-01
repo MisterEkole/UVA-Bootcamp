@@ -6,7 +6,7 @@ neural networks. For deep learning: peceptron, multilayer peceptron and convolut
 Three major projects were built, they include a blood smear analyser with CNN, Cats and Dog Classifier with CNN, Object Tracking and Detection with DJI Tello Drone using pretrained CNN. 
 
 
-![alt text](https://drive.google.com/file/d/11eMHdERx96Fg0byqJkUPELTVtZYLZQlB/view?usp=sharing)
+![alt text](https://github.com/MisterEkole/UVA-Bootcamp/blob/master/bootcamp%20image.jpg)
 
 ## Dependencies
 * Tensorflow 2.8
