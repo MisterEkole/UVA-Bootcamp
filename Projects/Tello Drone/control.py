@@ -10,7 +10,7 @@ print(me.get_battery())
 
 def getKeyboardInput():
     lr, fb, ud, yv = 0, 0, 0, 0
-    speed = 50
+    speed = 100;
     if kp.getKey("LEFT"):
         lr = -speed
     elif kp.getKey("RIGHT"):
@@ -32,6 +32,28 @@ def getKeyboardInput():
         sleep(3)
     if kp.getKey("e"):
         me.takeoff()
+    if kp.getKey("k"):
+        me.flip_back()
+    if kp.getKey("i"):
+        me.flip_forward()
+    if kp.getKey("j"):
+        me.flip_left()()
+    if kp.getKey("l"):
+        me.flip_right()
+    if kp.getKey("f"):
+        me.flip_left()
+        sleep(1)
+        me.flip_right()
+        sleep(1)
+        me.flip_forward()
+        sleep(1)
+        me.flip_back()
+    if kp.getKey("g"):
+        me.flip_back()
+        sleep(.5)
+        me.flip_back()
+        sleep(.5)
+        me.flip_back()
     return [lr, fb, ud, yv]
 
 
